@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card, .err-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  
+  transition: 0.3s;  
+}
+
+.err-card {
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+
+.pakde-card {
+  padding: 5px;
+  margin-top: 5px;  
+}
+
+.container {
+  padding: 2rem 16rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: aqua;
+}
+
+
+.grid-container {
+  display: grid;
+}
+
+.btn {  
+  position: relative;
+
+  display: inline;
+  margin: 30px auto;
+  padding: 5px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: white;  
+  
+  transition: background-color .3s;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #2ecc71;
+}

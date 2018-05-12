@@ -1,30 +1,7 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Exo');
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+* {
+  font-family: 'Exo', sans-serif;
 }
 
 .card, .err-card {
@@ -40,7 +17,8 @@
 
 .pakde-card {
   padding: 5px;
-  margin-top: 5px;  
+  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .container {
@@ -49,12 +27,15 @@
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  background-color: aqua;
+  background-color: #23A6D5;
 }
 
+.cont-pad {
+  padding: 2px 16px;
+}
 
 .grid-container {
-  display: grid;
+  display: grid;  
 }
 
 .btn {  
@@ -78,4 +59,27 @@
 
 .btn:hover, .btn:focus {
   background-color: #2ecc71;
+}
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  overflow-y: auto;
+}
+
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }

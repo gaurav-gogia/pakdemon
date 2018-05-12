@@ -1,5 +1,6 @@
 import '../../App.css';
 import axios from 'axios';
+import Pakda from './Pakda';
 import API_URL from '../../Constants';
 import React, { Component } from 'react';
 import { LinearProgress } from 'material-ui';
@@ -40,7 +41,9 @@ class Pokemon extends Component {
                 <LinearProgress color={error ? "secondary" : "primary"} style={{display: loading ? "block" : "none"}}/>
                 <SelectType search={this.search}/>
                 {error ? <div className="err-card">Could NOT catch Pakdemon :/</div> : undefined}
-                {pakdemonList.map((pakde, index) => <div className="card pakde-card" key={index}>{pakde.pokemon.name}</div>)}                                    
+                <div className="grid-container">
+                    {pakdemonList.map((pakde, index) => <Pakda key={index} pakad={pakde.pokemon}/>)}
+                </div>
             </div>
         );
     }

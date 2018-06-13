@@ -1,6 +1,7 @@
 import '../../App.css';
 import axios from 'axios';
 import Pakda from './Pakda';
+import Popup from '../modal/Popup';
 import API_URL from '../../Constants';
 import React, { Component } from 'react';
 import { LinearProgress } from 'material-ui';
@@ -34,16 +35,23 @@ class Pokemon extends Component {
             });
     };
 
+    close = () => this.setState({loading: false});
+
     render() {
         const {loading, error, pakdemonList} = this.state;
         return (
             <div>
                 <LinearProgress color={error ? "secondary" : "primary"} style={{display: loading ? "block" : "none"}}/>
+                
+                <Popup show={loading} onClose={this.close}>
+                    LOADING ....                    
+                </Popup>
+                
                 <SelectType search={this.search}/>
                 {error ? <div className="err-card">Could NOT catch Pakdemon :/</div> : undefined}
                 <div className="grid-container">
                     {pakdemonList.map((pakde, index) => <Pakda key={index} pakad={pakde.pokemon}/>)}
-                </div>
+                </div>                
             </div>
         );
     }

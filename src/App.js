@@ -3,7 +3,7 @@ import Pokemon from './components/pages/Pokemon';
 
 const App = () => (
   <div className="container app-container">
-    <center><h1>Pakdemon!!</h1></center>
+    <h1>Pakdemon!!</h1>
     <Pokemon />
   </div>
 );

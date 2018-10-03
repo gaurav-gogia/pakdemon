@@ -21,6 +21,10 @@
   margin-top: 10px;
 }
 
+.app-container h1 {
+    text-align: center;
+}
+
 .container {
   padding: 2rem 16rem;
 }

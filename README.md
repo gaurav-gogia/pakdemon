@@ -1,5 +1,5 @@
 # Pakdemon
-A simple react web app that will show pokemon and their info.
+A simple react web app that will show pokemon and their info. 
 
 ## Getting Started :rocket:
 
@@ -28,3 +28,6 @@ $ npm start
 
 ## Licence
 The contents of this repository are covered under the [GPL-3.0](https://github.com/DesmondANIMUS/pakdemon/blob/master/LICENSE).
+
+
+![](includes/pokeball.gif)

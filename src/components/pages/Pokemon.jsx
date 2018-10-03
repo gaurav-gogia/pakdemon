@@ -40,14 +40,13 @@ class Pokemon extends Component {
         const {loading, error, pakdemonList} = this.state;
         return (
             <div>
-                <LinearProgress color={error ? "secondary" : "primary"} style={{display: loading ? "block" : "none"}}/>
-                
+                {loading && <LinearProgress color={error ? "secondary" : "primary"}/>}
                 <Popup show={loading} onClose={this.close}>
                     LOADING ....                    
                 </Popup>
                 
                 <SelectType search={this.search}/>
-                {error ? <div className="err-card">Could NOT catch Pakdemon :/</div> : undefined}
+                {error && <div className="err-card">Could NOT catch Pakdemon :/</div>}
                 <div className="grid-container">
                     {pakdemonList.map((pakde, index) => <Pakda key={index} pakad={pakde.pokemon}/>)}
                 </div>                

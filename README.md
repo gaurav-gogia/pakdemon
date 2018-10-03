@@ -1,5 +1,5 @@
 # Pakdemon
-A simple react web app that will show pokemon and their info. 
+React web application which gives you the ability to see the details of your favorite pokemon from the convenience of your mobile device.
 
 ## Getting Started :rocket:
 
@@ -26,7 +26,17 @@ $ npm start
 * [NPM](https://www.npmjs.com/)
 * [React](https://reactjs.org/)
 
-## Licence
+## Contribution guidelines
+Any changes must first be discussed with the owner via issue or email.
+
+## Versioning
+Not yet determined.
+
+## Authors
+Gaurav Gogia- Initial work [DesmondANIMUS](https://github.com/DesmondANIMUS)
+
+
+## License
 The contents of this repository are covered under the [GPL-3.0](https://github.com/DesmondANIMUS/pakdemon/blob/master/LICENSE).
 
 

@@ -1,4 +1,3 @@
-import '../../App.css';
 import axios from 'axios';
 import Pakda from './Pakda';
 import Popup from '../modal/Popup';

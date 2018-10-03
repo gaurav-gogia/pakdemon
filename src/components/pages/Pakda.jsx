@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css';
 
 const Pakda = pakad => (
     <div className="card pakde-card">        

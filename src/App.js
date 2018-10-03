@@ -1,4 +1,5 @@
 import React from 'react';
+import "./App.css";
 import Pokemon from './components/pages/Pokemon';
 
 const App = () => (

@@ -25,8 +25,6 @@ class Pakda extends React.Component {
     };
 
     render() {
-        const { imgUrl } = this.state;
-
         return (
             <div className="card pakde-card">
                 <div>

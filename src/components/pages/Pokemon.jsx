@@ -15,7 +15,7 @@ class Pokemon extends Component {
             pakdemonList: []
         };
     }
-    
+
     toggleLoading = () => this.setState({loading: !this.state.loading});
     toggleError = () => this.setState({error: !this.state.error});
 
@@ -45,10 +45,13 @@ class Pokemon extends Component {
                     LOADING ....                    
                 </Popup>
                 
-                <SelectType search={this.search}/>
+                <SelectType search={this.search} />
                 {error && <div className="err-card">Could NOT catch Pakdemon :/</div>}
                 <div className="grid-container">
-                    {pakdemonList.map((pakde, index) => <Pakda key={index} pakad={pakde.pokemon}/>)}
+                    {
+                        pakdemonList.sort((a, b) => a.pokemon.name.localeCompare(b.pokemon.name))
+                        .map((pakde, index) => <Pakda key={index} pakad={pakde.pokemon}/>)
+                    }
                 </div>                
             </div>
         );

@@ -3,14 +3,12 @@ import axios from "axios";
 import "../../App.css";
 
 class Pakda extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            imgUrl:
-                "https://i.redditmedia.com/e5zoQw-hgw-LCjdhC_4G8IAcHxex5pzda_BD_FPTcBY.png?fit=crop&crop=faces%2Centropy&arh=2&w=960&s=3d7dcda282bfc1f3ff3dc0d971f13113",
-            loadingImage: "not started"
-        };
-    }
+
+    state = {
+        imgUrl:
+            "https://i.redditmedia.com/e5zoQw-hgw-LCjdhC_4G8IAcHxex5pzda_BD_FPTcBY.png?fit=crop&crop=faces%2Centropy&arh=2&w=960&s=3d7dcda282bfc1f3ff3dc0d971f13113",
+        loadingImage: "not started"
+    };
 
     loadImage = () => {
         this.setState({ loadingImage: "loading" });

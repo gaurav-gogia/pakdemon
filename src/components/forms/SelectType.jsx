@@ -2,12 +2,10 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
 class SelectType extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+    
+        state = {
             type: 1
         };
-    };
     
     static propTypes = {
         search: PropTypes.func.isRequired

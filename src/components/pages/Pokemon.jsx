@@ -7,14 +7,13 @@ import { LinearProgress } from 'material-ui';
 import SelectType from '../forms/SelectType';
 
 class Pokemon extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            loading: false,
-            error: false,
-            pakdemonList: []
-        };
-    }
+
+    state = {
+        loading: false,
+        error: false,
+        pakdemonList: []
+    };
+
 
     toggleLoading = () => this.setState({loading: !this.state.loading});
     toggleError = () => this.setState({error: !this.state.error});
@@ -23,7 +22,7 @@ class Pokemon extends Component {
         if (!this.state.loading) this.toggleLoading();
         if (this.state.error) this.toggleError();
         
-        axios.get(API_URL.TYPE+pakdemonType)
+        axios.get(API_URL.TYPE+pakdemonType+"/")
             .then(res => {                
                 this.setState({pakdemonList: res.data.pokemon});                
                 this.toggleLoading();    

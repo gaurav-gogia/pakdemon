@@ -23,12 +23,13 @@ class Pokemon extends Component {
         if (this.state.error) this.toggleError();
         
         axios.get(API_URL.TYPE+pakdemonType+"/")
-            .then(res => {                
+            .then(res => {       
+                  
                 this.setState({pakdemonList: res.data.pokemon});                
                 this.toggleLoading();    
             })
             .catch(e => {
-                console.log(e);
+                console.log("errrr",e);
                 this.toggleError();
             });
     };

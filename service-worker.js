@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gaurav-gogia/pakdemon.git/precache-manifest.d7808153e8bb3cf37b51bc282af6d8e4.js"
+  "/pakdemon/precache-manifest.5623e39dcd2c52285f4fdaa487f3558c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gaurav-gogia/pakdemon.git/index.html", {
+workbox.routing.registerNavigationRoute("/pakdemon/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

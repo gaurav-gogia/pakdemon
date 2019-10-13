@@ -1,13 +1,13 @@
 {
-  "main.css": "/gaurav-gogia/pakdemon.git/static/css/main.fc99638c.chunk.css",
-  "main.js": "/gaurav-gogia/pakdemon.git/static/js/main.e3b7c504.chunk.js",
-  "main.js.map": "/gaurav-gogia/pakdemon.git/static/js/main.e3b7c504.chunk.js.map",
-  "runtime~main.js": "/gaurav-gogia/pakdemon.git/static/js/runtime~main.1da8a724.js",
-  "runtime~main.js.map": "/gaurav-gogia/pakdemon.git/static/js/runtime~main.1da8a724.js.map",
-  "static/js/2.44298fe1.chunk.js": "/gaurav-gogia/pakdemon.git/static/js/2.44298fe1.chunk.js",
-  "static/js/2.44298fe1.chunk.js.map": "/gaurav-gogia/pakdemon.git/static/js/2.44298fe1.chunk.js.map",
-  "index.html": "/gaurav-gogia/pakdemon.git/index.html",
-  "precache-manifest.d7808153e8bb3cf37b51bc282af6d8e4.js": "/gaurav-gogia/pakdemon.git/precache-manifest.d7808153e8bb3cf37b51bc282af6d8e4.js",
-  "service-worker.js": "/gaurav-gogia/pakdemon.git/service-worker.js",
-  "static/css/main.fc99638c.chunk.css.map": "/gaurav-gogia/pakdemon.git/static/css/main.fc99638c.chunk.css.map"
+  "main.css": "/pakdemon/static/css/main.fc99638c.chunk.css",
+  "main.js": "/pakdemon/static/js/main.69348098.chunk.js",
+  "main.js.map": "/pakdemon/static/js/main.69348098.chunk.js.map",
+  "runtime~main.js": "/pakdemon/static/js/runtime~main.67356d1f.js",
+  "runtime~main.js.map": "/pakdemon/static/js/runtime~main.67356d1f.js.map",
+  "static/js/2.44298fe1.chunk.js": "/pakdemon/static/js/2.44298fe1.chunk.js",
+  "static/js/2.44298fe1.chunk.js.map": "/pakdemon/static/js/2.44298fe1.chunk.js.map",
+  "index.html": "/pakdemon/index.html",
+  "precache-manifest.5623e39dcd2c52285f4fdaa487f3558c.js": "/pakdemon/precache-manifest.5623e39dcd2c52285f4fdaa487f3558c.js",
+  "service-worker.js": "/pakdemon/service-worker.js",
+  "static/css/main.fc99638c.chunk.css.map": "/pakdemon/static/css/main.fc99638c.chunk.css.map"
 }

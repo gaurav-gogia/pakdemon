@@ -1,7 +1,7 @@
 {
   "name": "pakdemon",
   "version": "0.1.0",
-  "homepage": "https://gaurav-gogia.github.io/pakdemon",
+  "homepage": "http://gaurav-gogia.github.io/pakdemon",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",

@@ -29,13 +29,6 @@ $ npm start
 ## Contribution guidelines
 Any changes must first be discussed with the owner via issue or email.
 
-## Versioning
-Not yet determined.
-
-## Authors
-Gaurav Gogia- Initial work [DesmondANIMUS](https://github.com/DesmondANIMUS)
-
-
 ## License
 The contents of this repository are covered under the [GPL-3.0](https://github.com/DesmondANIMUS/pakdemon/blob/master/LICENSE).
 
